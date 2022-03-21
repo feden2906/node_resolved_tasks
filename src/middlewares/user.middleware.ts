@@ -20,6 +20,22 @@ class UserMiddleware {
                 .json(e);
         }
     }
+
+    async checkIsUserExistForCreate(req: IRequestExtended, res: Response, next: NextFunction): Promise<void> {
+        try {
+            const { email, phone } = req.body;
+            const userFromDb = await userRepository.getUserByEmailOrPhone(email, phone);
+
+            if (userFromDb) {
+                throw new Error('Введи нормальні дані, дурачок)');
+            }
+
+            next();
+        } catch (e: any) {
+            res.status(400)
+                .json(e.message);
+        }
+    }
 }
 
 export const userMiddleware = new UserMiddleware();

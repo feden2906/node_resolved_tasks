@@ -19,6 +19,14 @@ class UserRepository extends Repository<User> implements IUserRepository {
             .getOne();
     }
 
+    public async getUserByEmailOrPhone(email: string, phone: string): Promise<IUser | undefined> {
+        return getManager().getRepository(User)
+            .createQueryBuilder('user')
+            .where('user.email = :email', { email })
+            .orWhere('user.phone = :phone', { phone })
+            .getOne();
+    }
+
     public async createUser(user: IUser): Promise<IUser> {
         return getManager().getRepository(User).save(user);
     }
