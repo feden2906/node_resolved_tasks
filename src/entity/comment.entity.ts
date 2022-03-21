@@ -2,9 +2,10 @@ import {
     Column, Entity, JoinColumn, ManyToOne,
 } from 'typeorm';
 
-import { CommonFields } from './commonFields';
-import { Post } from './post';
-import { User } from './user';
+import { CommonFields } from './commonFields.entity';
+import { User } from './user.entity';
+import { Post } from './post.entity';
+import { config } from '../config/config';
 
 export interface IComment {
     text: string;
@@ -14,7 +15,7 @@ export interface IComment {
     dislike: number;
 }
 
-@Entity('Comments', { database: 'okten' })
+@Entity('Comments', { database: config.MYSQL_DATABASE_NAME })
 export class Comment extends CommonFields implements IComment {
     @Column({
         type: 'varchar',

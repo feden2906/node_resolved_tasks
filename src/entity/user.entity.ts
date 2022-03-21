@@ -1,10 +1,11 @@
 import { Column, Entity, OneToMany } from 'typeorm';
 
-import { CommonFields } from './commonFields';
-import { IPost, Post } from './post';
-import { Comment, IComment } from './comment';
+import { CommonFields, ICommonFields } from './commonFields.entity';
+import { IPost, Post } from './post.entity';
+import { IComment, Comment } from './comment.entity';
+import { config } from '../config';
 
-export interface IUser {
+export interface IUser extends ICommonFields{
     firstName: string;
     lastName: string;
     age?: number;
@@ -15,7 +16,7 @@ export interface IUser {
     comments: IComment[];
 }
 
-@Entity('Users', { database: 'okten' })
+@Entity('Users', { database: config.MYSQL_DATABASE_NAME })
 export class User extends CommonFields implements IUser {
     @Column({
         type: 'varchar',

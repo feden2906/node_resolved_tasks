@@ -1,7 +1,6 @@
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
-export class CreateTableComments1645660239872 implements MigrationInterface {
-
+export class CreateTableComments1647703617375 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.createTable(new Table({
             name: 'Comments',
@@ -53,7 +52,7 @@ export class CreateTableComments1645660239872 implements MigrationInterface {
                 },
 
                 {
-                    name: 'deleteAt',
+                    name: 'deletedAt',
                     type: 'timestamp',
                     isNullable: true,
                 },
@@ -77,9 +76,10 @@ export class CreateTableComments1645660239872 implements MigrationInterface {
             ],
         }), true);
     }
-    // authorId, postId,
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable('Comments', true);
+        await queryRunner.query(`
+            DROP TABLE IF EXISTS Comments
+        `);
     }
 }

@@ -5,8 +5,9 @@
   "username": "root",
   "password": "root",
   "database": "okten",
-  "synchronize": true,
+  "synchronize": false,
   "logging": false,
+  "autoLoadEntities": true,
   "entities": [
     "src/entity/**/*.ts"
   ],
