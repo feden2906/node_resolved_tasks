@@ -7,7 +7,6 @@ import { IRequestExtended } from '../interfaces';
 
 const router = Router();
 
-router.post('/registration', authController.registration);
 router.post('/login', userMiddleware.checkIsUserExist, authController.login);
 router.post('/logout', (req: IRequestExtended, res : Response, next: NextFunction) => {
     req.tokenType = config.TYPE_ACCESS;

@@ -5,7 +5,7 @@ import {
 import { CommonFields } from './commonFields.entity';
 import { User } from './user.entity';
 import { IComment, Comment } from './comment.entity';
-import { config } from '../config/config';
+import { config } from '../config';
 
 export interface IPost {
     userId: number;

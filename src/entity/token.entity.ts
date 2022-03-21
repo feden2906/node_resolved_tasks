@@ -1,5 +1,5 @@
 import {
-    Column, Entity, JoinColumn, OneToOne,
+    Column, Entity, JoinColumn, ManyToOne,
 } from 'typeorm';
 
 import { User } from './user.entity';
@@ -33,7 +33,7 @@ export class Token extends CommonFields implements IToken {
     })
         accessToken: string;
 
-    @OneToOne(() => User)
+    @ManyToOne(() => User)
     @JoinColumn({ name: 'userId' })
         user: User;
 }
