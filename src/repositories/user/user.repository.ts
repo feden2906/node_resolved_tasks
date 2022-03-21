@@ -2,7 +2,7 @@ import {
     DeleteResult, EntityRepository, getManager, Repository, UpdateResult,
 } from 'typeorm';
 
-import { IUser, User } from '../../entity/user.entity';
+import { IUser, User } from '../../entity';
 import { IUserRepository } from './user.repository.interface';
 
 @EntityRepository(User)
