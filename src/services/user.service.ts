@@ -36,7 +36,7 @@ class UserService {
         const isPasswordUnique = await bcrypt.compare(password, hash);
 
         if (!isPasswordUnique) {
-            throw new Error('User not exists');
+            throw new Error('wrong email or password');
         }
     }
 

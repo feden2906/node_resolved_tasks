@@ -31,7 +31,7 @@ class AuthController {
                 user: req.user,
             });
         } catch (e: any) {
-            res.status(400).json(e);
+            res.status(400).json(e.message);
         }
     }
 
