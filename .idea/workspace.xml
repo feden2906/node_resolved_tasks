@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43fcd17e-e0ed-4374-8327-b47230bd7b41" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/error.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/notFound.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/signIn.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/userInfo.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw_2/static/users.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Alex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Alina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Maksym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Olena.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Tamara.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Andrii.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Dina.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Oksana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Olya.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Panas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/error.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/notFound.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/userInfo.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2/static/users.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/controller/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/controller/login.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/controller/signIn.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/controller/user.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/db/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/middleware/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/middleware/signIn.middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/middleware/user.middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/router/api.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/router/login.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/router/signIn.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/router/user.router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/error.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/login.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/notFound.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/signIn.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/userInfo.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_3/static/users.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="274AM14xQ5TNdIF05VetNQXQPrR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/STUDY/Node.js OktenWeb/node_HW" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43fcd17e-e0ed-4374-8327-b47230bd7b41" name="Changes" comment="" />
+      <created>1648568933944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648568933944</updated>
+      <workItem from="1648568936211" duration="4888000" />
+      <workItem from="1648581049568" duration="2107000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
