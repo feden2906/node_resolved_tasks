@@ -1,62 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fcd17e-e0ed-4374-8327-b47230bd7b41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/error.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/login.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/notFound.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/signIn.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/userInfo.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw_2/static/users.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Alex.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Alina.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Maksym.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Olena.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/inPerson/new_Tamara.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Andrii.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Dina.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Oksana.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Olya.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1/main/online/new_Panas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/error.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/login.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/notFound.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/userInfo.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2/static/users.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/controller/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/controller/login.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/controller/signIn.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/controller/user.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/db/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/db/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/middleware/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/middleware/signIn.middleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/middleware/user.middleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/router/api.router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/router/login.router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/router/signIn.router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/router/user.router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/error.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/login.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/notFound.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/signIn.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/userInfo.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_3/static/users.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="43fcd17e-e0ed-4374-8327-b47230bd7b41" name="Changes" comment="lesson">
+      <change afterPath="$PROJECT_DIR$/src/email-templates/forgotPassword.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/actionToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/actionTokenTypes.enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/actionToken/actionTokenRepository.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/actionToken/actionTokenRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/email.info.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/email.info.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/enums.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/enums.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/authController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/authMiddleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/authMiddleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositories/user/userRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositories/user/userRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/authRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/authRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/emailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/emailService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/tokenService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/tokenService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/userService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/userService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validators/auth/auth.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/validators/auth/auth.validator.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -70,6 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="274AM14xQ5TNdIF05VetNQXQPrR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,10 +56,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/STUDY/Node.js OktenWeb/node_HW" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/email-templates" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/email-templates" />
+      <recent name="$PROJECT_DIR$/src/repositories/actionToken" />
+      <recent name="$PROJECT_DIR$/src/repositories/token" />
+      <recent name="$PROJECT_DIR$/src/entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/repositories/actionToken" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -110,6 +104,7 @@
       <updated>1648568933944</updated>
       <workItem from="1648568936211" duration="4888000" />
       <workItem from="1648581049568" duration="2107000" />
+      <workItem from="1648588912453" duration="7640000" />
     </task>
     <servers />
   </component>
@@ -126,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

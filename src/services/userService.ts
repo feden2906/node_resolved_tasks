@@ -18,6 +18,14 @@ class UserService {
         return userRepository.getUserByEmail(email);
     }
 
+    public async updateUser(id: number, obj: Partial<IUser>): Promise<object | undefined> {
+        if (obj.password) {
+            obj.password = await this._hashPassword(obj.password);
+        }
+
+        return userRepository.updateUser(id, obj);
+    }
+
     public async compareUserPasswords(password: string, hash: string): Promise<void | Error> {
         const isPasswordUnique = await bcrypt.compare(password, hash);
 

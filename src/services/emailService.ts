@@ -2,7 +2,7 @@ import nodemailer, { SentMessageInfo } from 'nodemailer';
 import EmailTemplate from 'email-templates';
 
 import { config } from '../config/config';
-import { emailActionEnum, emailInfo } from '../constants';
+import { emailActionEnum, emailInfo, constants } from '../constants';
 import path from 'path';
 
 class EmailService {
@@ -15,7 +15,7 @@ class EmailService {
   async sendMail(userMail: string, action: emailActionEnum, context = {}): Promise<SentMessageInfo> {
     const {subject, templateName} = emailInfo[action];
 
-    Object.assign(context, {frontendUrl: 'https://google.com'});
+    Object.assign(context, {frontendUrl: constants.FRONTEND_URL});
 
     const html = await this.templateRenderer.render(templateName, context);
 

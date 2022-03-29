@@ -8,6 +8,10 @@ class UserRepository extends Repository<User> implements IUserRepository {
         return getManager().getRepository(User).save(user);
     }
 
+    public async updateUser(id: number, user: Partial<IUser>): Promise<object> {
+        return getManager().getRepository(User).update({ id }, user);
+    }
+
     public async getUserByEmail(email: string): Promise<IUser | undefined> {
         return getManager().getRepository(User)
             .createQueryBuilder('user')

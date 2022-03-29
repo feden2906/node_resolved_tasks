@@ -1,4 +1,5 @@
 export enum emailActionEnum {
   WELCOME,
-  ACCOUNT_BLOCKED
+  ACCOUNT_BLOCKED,
+  FORGOT_PASSWORD,
 }
